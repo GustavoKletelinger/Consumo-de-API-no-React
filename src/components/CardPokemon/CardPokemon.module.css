@@ -1,0 +1,22 @@
+/* CardPokemon.module.css – CSS Module */
+
+.card {
+  background-color: #fff;
+  border: 2px solid #e3350d;
+  border-radius: 8px;
+  padding: 16px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(227, 53, 13, 0.25);
+}
+
+.nome {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+}
